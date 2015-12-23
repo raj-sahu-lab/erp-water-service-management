@@ -1,0 +1,21 @@
+# Compiled binaries
+*.dll
+*.exe
+*.pdb
+
+# Database
+*.mdf
+*.ldf
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documents
+*.pdf
+*.docx
+
+# Backups
+_db_backups/
+Downloads/

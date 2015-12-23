@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+    <link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/tms-0.4.x.js"></script>
+    <script>
+    	$(document).ready(function(){				   	
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:false,
+				nextBu:false,
+				playBu:false,
+				duration:1000,
+				preset:'fade',
+				pagination:true,
+				pagNums:false,
+				slideshow:7000,
+				numStatus:true,
+				banners:'fromRight',
+				waitBannerAnimation:false,
+				progressBar:false
+			})		
+		});
+	</script>
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+  <div class="main">
+  <!--==============================header=================================-->
+    <header>
+        <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+        <div class="form-search">
+            <form id="form-search" method="post">
+              <input type="text" value="Type here..." onBlur="if(this.value=='') this.value='Type here...'" onFocus="if(this.value =='Type here...' ) this.value=''"  />
+              <a href="#" onClick="document.getElementById('form-search').submit()" class="search_button"></a>
+            </form>
+        </div>   
+        <div class="clear"></div>    
+        <nav class="box-shadow">
+            <div>
+                <ul class="menu">
+                    <li class="home-page current"><a href="index.html"><span></span></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="clients.html">Clients</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+                <div class="social-icons">
+                    <span>Follow us:</span>
+                    <a href="http://erpapp.[CompanyName].in/" class="icon-3"></a>
+                    <a href="#" class="icon-2"></a>
+                    <a href="#" class="icon-1"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </nav>
+    </header>   
+  <!--==============================content================================-->
+    <section id="content"><div class="ic"></div>
+        <div id="slide" class="box-shadow">		
+            <div class="slider">
+                <ul class="items">
+                    <li><img src="img/slider-1.jpg" alt="" /><div class="banner">Welcome to [Company Name]&nbsp;</div></li>
+                    <li><img src="img/slider-2.jpg" alt="" /><div class="banner">Welcome to [Company Name]&nbsp;</div></li>
+                    <li><img src="img/slider-3.jpg" alt="" /><div class="banner">Welcome to [Company Name]&nbsp;</div></li>
+                    <li><img src="img/slider-4.jpg" alt="" /><div class="banner">Welcome to [Company Name]&nbsp;</div></li>
+                </ul>
+            </div>	
+        </div>
+        <div class="container_12">
+          <div class="grid_12">
+            <div class="pad-0 border-1">
+
+                <h2 class="top-1 p0">Welcome to [Company Name]</h2>
+
+<p class="p2"><b><i>Cleaning Tanks Scientifically :-</i></b>&nbsp;<span style="color: rgb(51, 51, 51); font-family: 'Cabin Condensed', sans-serif; font-size: 14px; line-height: 18.200000762939453px; text-align: justify;">Water being the most precious element for human consumption needs to be stored in a clean and properly disinfected tank is a phenomenon tha t everybody understands. However, due to lack of awareness and scientific mechanism, these tanks remain unprotected and uncared so here we are to clean your tanks by&nbsp;using&nbsp;best scientific methodology.</span></p>
+</div>
+
+<div class="wrap block-1 pad-1">
+<div>
+<h3>Our Mission</h3>
+<img alt="" class="img-border" src="images/page1-img1.jpg" />
+<p align="justify"><span style="color: rgb(51, 51, 51); font-family: 'Cabin Condensed', sans-serif; font-size: 14px; line-height: 18.200000762939453px; text-align: justify;">Our mission is to help citizens of Goa to live a healthy life by cleaning their tanks....</span></p>
+<a class="button" href="services.html#our technology">More</a></div>
+
+<div>
+<h3>Our Vision</h3>
+<img alt="" class="img-border" src="images/page1-img2.jpg" />
+<p align="justify"><span class="p6">Our vision is to beome no.#01 professional tank cleaning company in Goa</span>...</p>
+<a class="button" href="#">More</a></div>
+
+<div class="last">
+<h3>Our Services</h3>
+<img alt="" class="img-border" src="images/page1-img3.jpg" />
+<p align="justify"><span style="color: rgb(51, 51, 51); font-family: 'Cabin Condensed', sans-serif; font-size: 14px; line-height: 18.200000762939453px; text-align: justify;">Water Storage Tanks (Any size, anywhere, any make) underground/overhead&nbsp;</span>...</p>
+<a class="button" href="#">More</a></div>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<div>
+<div>
+<h3>
+<div class="clear">&nbsp;</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!--==============================footer=================================-->
+    <footer>
+    	<p>Copyright © 2014-15 [Company Name], All rights reserved.</p>
+       <p> Developed & Maintained by [Company Name]</p>
+    </footer>
+</body>
+</html>
