@@ -19,3 +19,6 @@ Thumbs.db
 # Backups
 _db_backups/
 Downloads/
+node_modules/
+.env
+*.env.local
