@@ -10,6 +10,7 @@
 
 # OS files
 .DS_Store
+**/.DS_Store
 Thumbs.db
 
 # Documents
@@ -22,3 +23,8 @@ Downloads/
 node_modules/
 .env
 *.env.local
+
+# Build artifacts
+bin/
+obj/
+_notes/

@@ -1,5 +1,7 @@
 # Water Service Management — ERP System
 
+**Note:** The `Company Profile.pdf` and business documents in this repo are template/sample documents. This is a 2015 ASP.NET portfolio project — configuration values shown in Web.config are placeholders and must be set before deployment.
+
 A comprehensive ERP for water tank cleaning and service management businesses. Handles customers, sales, quotations, billing, stock management, employee tracking, and multi-center operations.
 
 ## Built: 2015
