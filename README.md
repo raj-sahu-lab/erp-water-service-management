@@ -1,4 +1,4 @@
-# Water Service Management — ERP System
+# Water Service Management — ERP System (2018)
 
 > **Built:** 2015 · ASP.NET 4.0 WebForms · C# · SQL Server · PHP
 >
@@ -70,7 +70,3 @@ A comprehensive ERP for water tank cleaning and service management businesses. H
 ## Note
 
 Deployed for a real water tank cleaning services company. Manages the full business cycle from customer acquisition through quotation, service delivery, and billing across multiple service centers.
-
----
-
-© 2015 Raj Sahu
