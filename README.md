@@ -1,5 +1,9 @@
 # Water Service Management — ERP System
 
+> **Built:** 2015 · ASP.NET 4.0 WebForms · C# · SQL Server · PHP
+>
+> This project was built in 2015 as a production ERP for a water tank cleaning services company — managing customers, job scheduling, technician dispatch, and billing. Like the Maintenance ERP, it was delivered as a precompiled deployment. The PHP contact forms have been updated (June 2026) with security headers, modern regex validation, and correct connection pool configuration.
+
 **Note:** The `Company Profile.pdf` and business documents in this repo are template/sample documents. This is a 2015 ASP.NET portfolio project — configuration values shown in Web.config are placeholders and must be set before deployment.
 
 A comprehensive ERP for water tank cleaning and service management businesses. Handles customers, sales, quotations, billing, stock management, employee tracking, and multi-center operations.
